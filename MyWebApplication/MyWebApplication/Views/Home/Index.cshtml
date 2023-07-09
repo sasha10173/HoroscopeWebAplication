@@ -1,0 +1,29 @@
+﻿@model Horoscope
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="indexh1 text-left">
+    <p>Ваш гороскоп на <br> каждый день</p>
+</div>
+<div class="condition">
+    <p>Чтобы узнать что вас ждёт сегодня <br> выберите ваш знак зодиака.</p>
+</div>
+<div class="inputdate">
+    <form asp-controller="Home" asp-action="Prediction" method="post">
+
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Овен" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Телец" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Близнецы" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Рак" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Лев" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Дева" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Весы" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Скорпион" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Стрелец" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Козерог" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Водолей" />
+        <input asp-for="user" class="custom-btn btn-9" type="submit" value="Рыба" />
+
+    </form>
+</div>

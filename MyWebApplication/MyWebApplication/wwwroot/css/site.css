@@ -1,0 +1,237 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-size: 25px;
+    color: #b3b3b3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.logopng {
+    width: 25px;
+    height: 25px;
+}
+
+.logopngMain {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+body {
+    background: url(/img/phon.jpg) no-repeat; /* Цвет фона и путь к файлу */
+   
+    height: 100vh;
+    background-size: cover;
+}
+
+.indexh1 {
+    border-top: 500px;
+    color: #b3b3b3;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    line-height: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.condition {
+    color: #b3b3b3;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputdate {
+    display: block;
+    background-color: transparent;
+    font-size: 15px;
+    color: #b3b3b3;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputform {
+    background-color: transparent;
+    color: #c9c9c9;
+    width: 13%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.subinput {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    box-shadow: -2px 1px 20px 0px #000000 ;
+    
+}
+
+.subinput:active{
+    top: 2px;
+}
+
+.subinput:hover{
+    color: #7f7f7f;
+}
+
+
+.btn-9 {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+
+.btn-9:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+
+    .btn-9:hover {
+        color: #b3b3b3;
+    }
+
+.btn-9:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+.btn-9:active {
+    top: 2px;
+}
+
+.desc {
+    margin-top: 100px;
+    border: 3px groove #b3b3b3;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: #b3b3b3;
+}
+.desc1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #b3b3b3;
+}
+
+.telegram {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #b3b3b3;
+}
+
+.footersite{
+    color: #b3b3b3;
+}
